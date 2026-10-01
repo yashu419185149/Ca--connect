@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CA Connect | Department of Computer Applications, Vignan's University</title>
+<style>
+:root{--navy:#14284b;--brown:#8a4b1f;--gold:#e3a72f;--bg:#f6f4ef;--card:#fff;--text:#222;--muted:#5d6470}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.65}
+a{color:var(--brown);text-decoration:none}
+a:hover{text-decoration:underline}
+header{background:var(--navy);color:#fff;position:sticky;top:0;z-index:10;box-shadow:0 2px 6px rgba(0,0,0,.25)}
+.bar{max-width:1100px;margin:auto;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;padding:10px 20px;gap:8px}
+.logo{font-weight:700;font-size:1.1rem}
+.logo span{color:var(--gold)}
+nav a{color:#fff;margin-left:16px;font-size:.92rem}
+nav a:hover{color:var(--gold);text-decoration:none}
+.hero{background:linear-gradient(135deg,var(--navy),#2b4a82);color:#fff;text-align:center;padding:80px 20px}
+.hero h1{font-size:2.3rem;margin-bottom:10px}
+.hero p{max-width:720px;margin:auto;opacity:.92}
+.btn{display:inline-block;margin-top:24px;background:var(--gold);color:var(--navy);padding:10px 24px;border-radius:30px;font-weight:600}
+.btn:hover{text-decoration:none;background:#f1ba49}
+section{max-width:1100px;margin:auto;padding:54px 20px}
+h2{color:var(--navy);font-size:1.7rem;margin-bottom:6px}
+h2::after{content:"";display:block;width:56px;height:4px;background:var(--gold);margin:8px 0 24px;border-radius:2px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}
+.card{background:var(--card);padding:22px;border-radius:10px;border-top:4px solid var(--gold);box-shadow:0 2px 8px rgba(0,0,0,.07)}
+.card h3{color:var(--navy);margin-bottom:8px;font-size:1.1rem}
+.card p,.card li{font-size:.95rem;color:var(--muted)}
+.card ul{padding-left:18px}
+.alt{background:#fff;max-width:none}
+.alt>div{max-width:1100px;margin:auto}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px;text-align:center}
+.stat{background:var(--navy);color:#fff;padding:26px;border-radius:10px}
+.stat b{display:block;font-size:2.2rem;color:var(--gold)}
+.stat small{opacity:.85}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:10px}
+.chips span{background:var(--bg);border:1px solid #d9d3c5;padding:6px 16px;border-radius:20px;font-weight:600;color:var(--navy)}
+.hod{display:grid;grid-template-columns:1fr 2fr;gap:24px;align-items:start}
+.avatar{background:var(--navy);color:var(--gold);font-size:3rem;font-weight:700;display:flex;align-items:center;justify-content:center;height:170px;border-radius:10px}
+table{width:100%;border-collapse:collapse;background:#fff;border-radius:10px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.07)}
+th,td{padding:12px 16px;text-align:left;border-bottom:1px solid #eee;font-size:.95rem}
+th{background:var(--navy);color:#fff}
+footer{background:var(--navy);color:#cfd6e4;padding:36px 20px;text-align:center;font-size:.9rem}
+footer a{color:var(--gold)}
+@media(max-width:700px){.hod{grid-template-columns:1fr}.hero h1{font-size:1.7rem}nav a{margin:0 10px 0 0}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="bar">
+    <div class="logo"><span>CA</span> Connect <small style="font-weight:400;font-size:.75rem;opacity:.8">| Vignan's University</small></div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#programs">Programs</a>
+      <a href="#faculty">Faculty</a>
+      <a href="#facilities">Facilities</a>
+      <a href="#placements">Placements</a>
+      <a href="#notices">Announcements</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<div class="hero">
+  <h1>CA Connect</h1>
+  <h3 style="font-weight:400;margin-bottom:12px;color:#e3a72f">Department of Computer Applications Information Portal</h3>
+  <p>Empowering the Future with Innovation and Application — preparing students for success in the fast-paced world of software and technology.</p>
+  <a class="btn" href="https://admissions.vignan.ac.in" target="_blank">Apply Now</a>
+</div>
+
+<section id="about">
+  <h2>About the Department</h2>
+  <p>The department combines strong theoretical foundations with practical skills in programming, database management, software development and system design. Modern areas such as Artificial Intelligence, Data Science, Mobile App Development, Cybersecurity and Cloud Computing are integrated into learning through projects, coding labs, internships and workshops, with continuous mentoring by experienced faculty.</p>
+  <br>
+  <div class="grid">
+    <div class="card"><h3>Vision</h3><p>To emerge as a renowned center in the field of computer applications for providing high quality education and research to produce globally competent professionals with ethical values.</p></div>
+    <div class="card"><h3>Mission</h3>
+      <ul>
+        <li><b>M1:</b> High quality education with a cutting-edge curriculum and learner-centered approach.</li>
+        <li><b>M2:</b> A culture of innovation and research through industry-academia linkages.</li>
+        <li><b>M3:</b> Ethical, socially-conscious professionals with leadership qualities.</li>
+      </ul>
+    </div>
+    <div class="card"><h3>What You'll Learn</h3>
+      <ul>
+        <li>Programming, software development &amp; databases</li>
+        <li>AI, Cloud and Cybersecurity</li>
+        <li>Analytical thinking &amp; problem-solving</li>
+        <li>Scalable applications for industry needs</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="programs" class="alt"><div>
+  <h2>Programs Offered</h2>
+  <div class="grid">
+    <div class="card"><h3>BCA</h3><p>Undergraduate program in Computer Applications, aligned with NEP 2020.</p></div>
+    <div class="card"><h3>MCA</h3><p>Postgraduate program with industry-relevant courses in AI, Data Science, Cloud and Cybersecurity.</p></div>
+    <div class="card"><h3>Ph.D.</h3><p>Doctoral research in Computer Applications with emphasis on innovation-driven research.</p></div>
+  </div>
+  <br>
+  <p><b>Teaching-learning:</b> Project-based learning with industry partners, flipped classrooms with real-time problem-solving sessions, and adaptive learning with research integration and skill development.</p>
+</div></section>
+
+<section id="faculty">
+  <h2>Faculty &amp; Leadership</h2>
+  <div class="hod">
+    <div class="avatar">NV</div>
+    <div class="card">
+      <h3>Dr. N. Veeranjaneyulu</h3>
+      <p><b>Head of Department, Computer Applications</b></p><br>
+      <p>"The department is committed to nurturing talent, fostering innovation, and equipping students with the knowledge and skills required to excel in today's dynamic digital world. We believe in holistic development — academic rigor alongside research, professional societies, cultural activities and community service."</p><br>
+      <p><a href="https://vignan.ac.in/facultyprofiles/index.php" target="_blank">View all faculty profiles &rarr;</a></p>
+    </div>
+  </div>
+</section>
+
+<section id="facilities" class="alt"><div>
+  <h2>Facilities</h2>
+  <div class="grid">
+    <div class="card"><h3>Advanced Computing Labs</h3><p>High-performance systems and the latest software tools.</p></div>
+    <div class="card"><h3>Intelligent Applications Lab</h3><p>Dedicated lab for building and experimenting with intelligent software.</p></div>
+    <div class="card"><h3>Smart Classrooms</h3><p>Interactive learning technologies for an engaging experience.</p></div>
+    <div class="card"><h3>Collaborative Workspaces</h3><p>Spaces for teamwork, brainstorming and project development.</p></div>
+  </div>
+</div></section>
+
+<section id="placements">
+  <h2>Performance &amp; Placements</h2>
+  <div class="stats">
+    <div class="stat"><b>91% &rarr; 96%</b><small>Success Index, 2021-22 to 2023-24</small></div>
+    <div class="stat"><b>85% &rarr; 98%</b><small>Placement Index, 2021-22 to 2023-24</small></div>
+    <div class="stat"><b>10-15%</b><small>Students opting for higher education</small></div>
+  </div>
+  <br>
+  <h3>Career Paths &amp; Recruiters</h3>
+  <p>Graduates pursue IT careers, entrepreneurship or higher studies. Recruiters shown on the department page:</p>
+  <div class="chips"><span>TCS</span><span>IBM</span><span>Cognizant</span><span>Infosys</span><span>Wipro</span><span>Hexaware</span><span>Samsung</span><span>DBS</span></div>
+  <br>
+  <h3>Alumni Hall of Fame</h3>
+  <div class="grid" style="margin-top:12px">
+    <div class="card"><p><b>D. Parvathi</b><br>Academic Topper &amp; Young Entrepreneur</p></div>
+    <div class="card"><p><b>CH. Akhil</b><br>Edu Global Overseas, Elite Park</p></div>
+    <div class="card"><p><b>Dr. K. Gayatri</b><br>Assistant Professor, VFSTR</p></div>
+  </div>
+</section>
+
+<section id="notices" class="alt"><div>
+  <h2>Announcements &amp; Accreditation</h2>
+  <table>
+    <tr><th>Notice</th><th>Details</th></tr>
+    <tr><td>NBA Recognition</td><td>Documents available for 2020-23, 2023-26 and 2026-28</td></tr>
+    <tr><td>Department Academic Committee (DAC)</td><td>Meeting document dated 13.08.2025</td></tr>
+    <tr><td>Admissions</td><td>Applications open online at <a href="https://admissions.vignan.ac.in" target="_blank">admissions.vignan.ac.in</a></td></tr>
+    <tr><td>Events &amp; Committees</td><td>See the <a href="https://vignan.ac.in/newvignan/departments/deptevents.php?deptid=sch3_dept4&school=sch3&deptnm=CA" target="_blank">official events page</a></td></tr>
+  </table>
+</div></section>
+
+<section id="contact">
+  <h2>Contact Details</h2>
+  <div class="grid">
+    <div class="card"><h3>Address</h3><p>Vignan's Foundation for Science, Technology and Research (Deemed to be University), Vadlamudi, Guntur - 522213</p></div>
+    <div class="card"><h3>Email</h3><p><a href="mailto:info@vignan.ac.in">info@vignan.ac.in</a></p></div>
+    <div class="card"><h3>Phone</h3><p>0863-2344700 / 701<br>Mon - Sat, 9:00 am to 6:00 pm</p></div>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2026 Vignan University. Department of Computer Applications.</p>
+  <p>Designed &amp; developed by <b style="color:#e3a72f">Yashwanth</b> (Reg. No: 261FD01049)</p>
+  <p>Source: <a href="https://vignan.ac.in/newvignan/departments/depthome.php?deptid=sch3_dept4&school=sch3&deptnm=CA" target="_blank">Official department page</a></p>
+</footer>
+
+</body>
+</html>
